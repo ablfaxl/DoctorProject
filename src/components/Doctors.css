@@ -1,0 +1,74 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  /* box-shadow: #ff0000; */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+.Docotor-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* position: absolute; */
+  /* cursor: pointer; */
+  width: 450px;
+  height: 450px;
+  margin: 1.5rem;
+  font-size: 1.69rem;
+  border-radius: 1rem;
+  background: #e0e0e0;
+  color: #212121;
+}
+.itemText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.pText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.img {
+  position: relative;
+  top: -50px;
+  left: 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+}
+.pageHandler {
+  display: flex;
+  flex-direction: row;
+}
+.pages {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  position: relative;
+  bottom: -240px;
+  right: 500px;
+  /* justify-content: space-between; */
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: rgb(84, 0, 0);
+}
+.pages li {
+  padding: 10px;
+}
+.selected {
+  background-color: rgb(57, 57, 57);
+}

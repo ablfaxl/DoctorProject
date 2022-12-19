@@ -1,0 +1,32 @@
+.container1 {
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center; */
+  font-size: 45px;
+}
+.nameDoctor {
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: row-reverse; */
+}
+body {
+  background-color: rgb(165, 165, 165);
+}
+.img1 {
+  padding-block: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 580px;
+  width: 350px;
+  height: 350px;
+}
+.back-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.back-btn1 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
